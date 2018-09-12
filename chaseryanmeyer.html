@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <script src="jstut.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="keywords" content="Chase Meyer, Interactive Resume, Resume, Algorithms, OOP, Bioinformatics, Computational Biology, CS, Computer Science, Data Structures">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <!-- My stylesheet -->
+    <link rel="stylesheet" href="chaseryanmeyer.css" >
+    <!-- Flavicon -->
+    <!--  Link to logo site logomakr.com/2Gmu4E -->
+   <link rel="shortcut icon" href="flav.png" >
+
+   <title>Chase Meyer</title>
+
+  </head>
+
+
+<!-- This website serves as practice with HTML5, CSS and Bootstrap. In many instances I
+     shuffle btw using Bootstrap defined classes and self defined classes, mostly for
+     practice using both. -->
+
+  <!-- Scrollspy is used to track users position of the page and automatically highlight
+       the corresponding nav bar element to indicate the section currently displayed.
+       This is not completly working yet, since the nav is not set to stay on the screen. -->
+  <body data-spy="scroll" data-target="#navbar-scrolling">
+    <header>
+      <div class="container-fluid">
+        <br><br>
+        <h3>Hi, I'm</h3>
+        <h1>Chase Meyer</h1>
+        <div class="d-flex">
+            <!-- NAVBAR -->
+            <nav id="navbar-scrolling" class="align-self-center">
+              <ul class="nav nav-fill nav-pills justify-content-center">
+                <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+                <li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+              </ul>
+              <div class="page-div"></div>
+            </nav>
+            <!-- End NAVBAR -->
+        </div>
+      </div>
+
+      <!-- Arrow indicating to scroll down -->
+      <a class="continue-down" href="#about">
+        <i class="down-arrow fas fa-angle-double-down"></i>
+      </a>
+    </header>
+
+    <div class="page-div"></div>
+    <section id="about">
+
+      <div class="container">
+        <h2 class="title">About Me</h2>
+        <p>
+          Who am I???
+          Well... Idk tbh but here is a pic of my perfect pup.
+        </p>
+        <img class="dex-pic" src="./dex.jpg"/>
+        <h6>Interests Include: My dog, hiking, coding, learning about new tech, working out, swimming, traveling.</h6>
+      </div>
+
+    </section>
+
+    <section id="resume">
+        <div class="container">
+          <h2 class="title">Resume</h2>
+          <!-- Education Section -->
+          <div class="line-around"><span> Education </span></div>
+          <!-- UW -->
+          <div class="row d-flex">
+            <div class="col-2">
+              <img src="./uw-logo.png"/>
+            </div>
+            <div class="col-10">
+              <h2><strong>The University of Washington - Bothell</strong></h2>
+              <div class="d-inline-flex container-edu-info">
+                <em>Master of Science in Computer Science and Software Engineering</em>
+                <span>•</span>
+                Commences September 2018
+              </div>
+              <div class="d-inline-flex container-edu-info">
+                <em>Graduate Certificate Software Development and Design</em>
+                <span>•</span>
+                June 2018
+              </div>
+            </div>
+          </div>
+          <!-- UT Austin -->
+          <div class="row d-flex">
+            <div class="col-2">
+              <img src="./ut-logo2.png"/>
+            </div>
+            <div class="col-10">
+              <h2><strong>The University of Texas at Austin</strong></h2>
+              <div class="d-inline-flex container-edu-info">
+                <em>Bachelor of Science and Arts in Biochemistry</em>
+                <span>•</span>
+                December 2016
+              </div>
+              <ul>
+                <li>Certificate is Computational Science and Engineering</li>
+                <li>Certificate in Business Foundations - McCombs School of Business</li>
+                <li>Elements of Computing Certificate</li>
+              </ul>
+            </div>
+          </div>
+          <!-- Skills -->
+          <div class="skills">
+            <div class="line-around"><span> Skills </span></div>
+            <div class="row d-flex justify-content-center">
+              <div class="col-sm-8 col-md-6 col-lg-4 border">
+                <div class="title">Proficient:</div>
+                <ul>
+                  <li>Python</li>
+                  <li>C++</li>
+                  <li>C</li>
+                  <li>Swift</li>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>R</li>
+                  <li>Git</li>
+                  <li>PyMol</li>
+                  <li>Linux/UNIX</li>
+                  <li>Microsoft Office</li>
+                </ul>
+              </div>
+              <div class="col-sm-8 col-md-6 col-lg-4 border">
+                <div class="title">Experience With:</div>
+                <ul>
+                  <li>Java</li>
+                  <li>JavaScript</li>
+                  <li>SQL</li>
+                  <li>User Datagram Protocol (UDP)</li>
+                  <li>Transmission Control Protocol (TCP)</li>
+                  <li>RESTful APIs</li>
+                  <li>JSON</li>
+                  <li>XML</li>
+                  <li>Vim</li>
+                  <li>Software Develompent Processes (Agile Methods, Waterfall)</li>
+                  <li>Many Python Packages</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="coursework">
+            <h2 class="title">Relevant Coursework</h2>
+            <p>
+              Data Structures and OOP (I/II), Systems Programming, Software Development Processes, Software Modeling Techniques, Software Testing and Quality, Mobile Computing, Computational Bioinformatics, Systems Bioinformatics, Computational Biology, Scientific and Technical Computing
+            </p>
+          </div>
+
+          <div class="download-resume">
+            <!-- Download a pdf of the resume  -->
+            <a href="./Resume-ChaseM" class="btn btn-light btn-block" tabindex="-1" role="button">
+              <i class="fas fa-download"></i>
+              Download Full Resume
+            </a>
+          </div>
+        </div>
+      </section>
+
+    <section id="projects">
+        <div class="container">
+          <h2 class="title">Projects</h2>
+          <!--Using no-gutters to remove the default horizontal padding-->
+          <div class="row justify-content-center no-gutters">
+            <!-- Column layout and size should adjust based on device size by using multiple column classes -->
+            <!-- Projects in Col: ArtSee, MyHikeLog, EVO, and Inventory System-->
+            <div class="col-sm-12 col-md-6 col-lg-4">
+              <!-- Card for ArtSee -->
+              <div class="card m-2">
+                <div class="card-body">
+                  <h2>ArtSee</h2>
+                  <h5>Come back later, this projects is in the works!</h5>
+                </div>
+              </div>
+              <!-- Card for MyHikeLog -->
+              <div class="card m-2">
+                <div class="card-body">
+                  <h2>MyHikeLog</h2>
+                  <h5>Come back later, this projects is in the works!</h5>
+                </div>
+              </div>
+              <!-- Card for Evolution of rRNA Base Pairs -->
+              <div class="card m-2">
+                <video width="100%" height="100%" muted loop autoplay poster="rna-vid-poster.png">
+                  <source src="./rna-vid.mp4" type="video/mp4">
+                  <source src="./rna-vid" type="video/mov">
+                  Your browser does not support the video tag.
+                </video>
+                <div class="overlay-text"><strong>Evolution of Base Pairs in rRNA Secondary Structure</strong></div>
+                <div class="card-overlay">
+                  <div class="text">
+                    <h4>Evolution of Base Pairs in rRNA Secondary Structure</h4>
+                    <hr style="border-top: 3px solid white;">
+                    <p>
+                      A recursive binary tree based modeling program used to
+                      illustrate inaccuracies in traditional Darwinian evolution for 16s rRNA.
+                    </p>
+                    <p>
+                      <strong>Languages Used:</strong> Python, Java, R
+                      <br />
+                      <strong>Used:</strong> Binary Tree, Hash Map, Biopython, ETE Toolkit, PyQt GUI
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- Card for Scalable Inventory Tracking System -->
+              <div class="card m-2">
+                <video width="100%" height="100%" muted loop autoplay poster="inventory-project/project-UML.jpeg">
+                  <source src="./inventory-project/inventory-project-vid.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+                <!-- Scalable Inventory Tracking System -->
+                <div class="overlay-text"><strong>Scalable Inventory Tracking System</strong></div>
+                <div class="card-overlay">
+                  <div class="text">
+                    <h4>Scalable Inventory <br />Tracking System</h4>
+                    <hr style="border-top: 3px solid white;">
+                    <p>
+                      Extensible automated inventory tracking and sorting system.
+                    </p>
+                    <p>
+                      <strong>Language Used:</strong> C++
+                      <br />
+                      <strong>Used:</strong> Templated Classes, Hash Map, AVL Tree, Factory Design Pattern
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Project Highlight - Inter-Segment/Group UDP Broadcast and Scientific Computing Project-->
+            <div class="col-sm-12 col-md-6 col-lg-4">
+              <!-- Card for Inter-Segment/Group UDP Broadcast -->
+              <div class="card m-2">
+                <img src="./udp-tcp-animation.gif" poster="./UDP-TCP.png" width="100%" height="100%"/>
+                <div class="card-overlay">
+                  <div class="text">
+                    <h4>Inter-Segment/<br />Group UDP Broadcast</h4>
+                    <hr style="border-top: 3px solid white;">
+                    <p>
+                      A UDP multicast relay program that enables a user-level UDP
+                      multicast environment across multiple network segments and/or
+                      multicast groups communicating through TCP sockets.
+                    </p>
+                    <p>
+                      <strong>Languages Used:</strong> C++, Java
+                      <br />
+                      <strong>Used:</strong> Multithreading, UDP protocol, TCP protocol
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- Card for Scientific Computing Project -->
+              <div class="card m-2">
+                <video width="100%" height="100%" muted loop autoplay>
+                  <source src="./reelin-pymol.mp4" type="video/mp4">
+                  <source src="./pymol.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+                <div class="overlay-text" style="color: white;"><strong>Scientific Computing Project for ICES</strong></div>
+                <div class="card-overlay">
+                  <div class="text">
+                    <h4>Scientific Computing <br />Project for ICES</h4>
+                    <hr style="border-top: 3px solid white;">
+                    <!-- <p>
+                      Individual Research project under the supervision of
+                      Dr. Ron Elber, director of the ICES Center for Computational
+                      Life Sciences and Biology
+                      Developed structural model for Reelin, a neurologically active
+                      glycoprotein, using modern structural bioinformatic methods
+                    </p> -->
+                    <p>
+                      <strong>Language Used:</strong> Python
+                      <br />
+                      <strong>Used:</strong> BLAST, PyMol, MODELLER, PSIPRED
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Project Highlight - TVForMe iOS app and Optimized Sequence Alignment Tool-->
+            <div class="col-sm-12 col-md-6 col-lg-4">
+              <div class="card m-2">
+                <video width="100%" height="100%" muted loop autoplay>
+                  <source src="./TVForMe-IntroVid.mp4" type="video/mp4">
+                  <source src="./TVForMe-IntroVid" type="video/mov">
+                  Your browser does not support the video tag.
+                </video>
+                <div class="card-overlay">
+                  <div class="text">
+                    <h4>TvForMe</h4>
+                    <hr style="border-top: 3px solid white;">
+                    <p>
+                      An iOS app which acts as a hub for TV show information.
+                    </p>
+                    <p>
+                      <strong>Language Used:</strong> Swift
+                      <br />
+                      <strong>Used:</strong> Hash Map, JSON, RESTful APIs
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- Card for Optimized Sequence Alignment Tool -->
+              <div class="card m-2">
+                <video width="100%" height="100%" muted loop autoplay>
+                  <source src="./sequenceAlignment/seq-align-vid.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+                <div class="overlay-text"><strong>Optimized Sequence Alignment Tool for Lonestar 5 Supercomputer</strong></div>
+                <div class="card-overlay" id="seq-align-overlay">
+                  <div class="text">
+                    <h4>Optimized Sequence Alignment Tool for HPC</h4>
+                    <hr style="border-top: 3px solid white;">
+                    <p>
+                      A biological sequence alignment tool designed for optimal
+                      efficiency on TACC’s Lonestar 5 supercomputer.
+                    </p>
+                    <p>
+                      <strong>Language Used:</strong> C
+                      <br />
+                      <strong>Used:</strong> Dynamic Programming, OpenMP
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- <section id="ex-code">
+        <h2 class="title">Example Code</h2>
+      </section> -->
+
+    <section id="contact">
+
+        <div class="container">
+
+          <h2 class="title">Contact Me!</h2>
+
+          <!-- Email Form -->
+          
+          <!-- form end -->
+
+          <br><br>
+
+          <div class="social">
+            <a href="https://www.linkedin.com/in/chase-meyer-68ba01b7/"><i class="fab fa-linkedin"></i></a>
+            <!-- <a href="https://github.com/chasemeyer3"><i class="fab fa-github"></i></a> -->
+          </div>
+
+        </div>
+
+
+      </section>
+
+
+    <footer>©2018 Chase Meyer</footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+  </body>
+</html>
